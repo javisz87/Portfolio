@@ -475,8 +475,15 @@
       border: 1px solid transparent;
     }
   
-    .social {
-      display: none;
+    .social__list {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+    
+    .social__list-item {
+      margin: 10px;
     }
     .navbar .social {
       display: block;
@@ -507,8 +514,17 @@
     .hero__description {
       font-size: 1.5rem;
     }
-    .foto-perfil {
-      display: none;
+   
+
+    .section__sobre-mi {
+      background-color: #222222;
+      min-height: 100vh;
+      padding: 40px;
+      color: rgb(71, 93, 218);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
     }
     .titulo-sobremi {
       margin-top: 3rem;
