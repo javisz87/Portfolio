@@ -475,16 +475,11 @@
       border: 1px solid transparent;
     }
   
-    .social__list {
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      flex-wrap: wrap;
+    .social{
+      display: none;
     }
     
-    .social__list-item {
-      margin: 10px;
-    }
+
     .navbar .social {
       display: block;
     }
