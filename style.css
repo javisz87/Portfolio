@@ -184,6 +184,7 @@
     width: 300px;
     border-radius: 15px;
   }
+
   
   .section__habilidades {
     background-color: var(----gris-oscuro);
@@ -511,7 +512,6 @@
       font-size: 1.5rem;
     }
    
-
     .section__sobre-mi {
       background-color: #222222;
       min-height: 100vh;
